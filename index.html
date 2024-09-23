@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP08 - Calculadora 1.0</title>
+    <script src="js/util.js"></script>
+    <script type="model" src="js/ejercicios.js"></script>
+  
+</head>
+<body>
+    <label for="opcion">Operación:</label>
+    <select id="opcion">
+        <option value="calculadoraEdad">Calculadora de Edad</option>
+        <option value="calculadoraRecaudacion">Calculadora de Recaudación</option>
+        <option value="stringConSeparador">String con Separador</option>
+        <option value="cortarTexto">Cortar Texto</option>
+        <option value="reemplazarPalabras">ReemplazarPalabras</option>
+        <option value="nombresConA">Nombres con A</option>
+        <option value="TriangulosConAsteriscos">Triangulos Con Asteriscos</option>
+        <option value="DobleConElementos">Doble con Elementos</option>
+        <option value="TirandoFrutas">Tirando Frutas</option>
+        <option value="ComparandoDatosYtipos">Comparando Datos y Tipos</option>
+    </select>
+
+    <button onclick="ejecutarFuncion()">Enviar</button>
+
+    <div id="resultado"></div>
+</body>
+</html>

@@ -4,26 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TP08 - Calculadora 1.0</title>
-    <script src="js/util.js"></script>
-    <script type="model" src="js/ejercicios.js"></script>
+    <script type="module" src="js/util.js"></script>
+    <script type="module" src="js/ejercicios.js" ></script>
   
 </head>
 <body>
     <label for="opcion">Operación:</label>
     <select id="opcion">
-        <option value="calculadoraEdad">Calculadora de Edad</option>
-        <option value="calculadoraRecaudacion">Calculadora de Recaudación</option>
-        <option value="stringConSeparador">String con Separador</option>
-        <option value="cortarTexto">Cortar Texto</option>
-        <option value="reemplazarPalabras">ReemplazarPalabras</option>
-        <option value="nombresConA">Nombres con A</option>
-        <option value="TriangulosConAsteriscos">Triangulos Con Asteriscos</option>
-        <option value="DobleConElementos">Doble con Elementos</option>
-        <option value="TirandoFrutas">Tirando Frutas</option>
-        <option value="ComparandoDatosYtipos">Comparando Datos y Tipos</option>
+        <option id="calculadoraEdad" value="calculadoraEdad">Calculadora de Edad</option>
+        <option id="calculadoraRecaudacion" value="calculadoraRecaudacion">Calculadora de Recaudación</option>
+        <option id="stringConSeparador" value="stringConSeparador">String con Separador</option>
+        <option id="cortarTexto" value="cortarTexto">Cortar Texto</option>
+        <option id="reemplazarPalabras" value="reemplazarPalabras">ReemplazarPalabras</option>
+        <option id="nombresConA" value="nombresConA">Nombres con A</option>
+        <option id="TriangulosConAsteriscos" value="TriangulosConAsteriscos">Triangulos Con Asteriscos</option>
+        <option id="DobleConElementos" value="DobleConElementos">Doble con Elementos</option>
+        <option id="TirandoFrutas" value="TirandoFrutas">Tirando Frutas</option>
+        <option id="ComparandoDatosYtipos" value="ComparandoDatosYtipos">Comparando Datos y Tipos</option>
     </select>
+    <button onclick="ejecutarFuncion()">Ir a Ejercicios</button>
 
-    <button onclick="ejecutarFuncion()">Enviar</button>
 
     <div id="resultado"></div>
 </body>

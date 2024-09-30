@@ -18,8 +18,14 @@ export function calcularEdadConFecha(fecha)
     return edad;
 }
 
-export function ingresarTexto()
+export function ingresarTexto(mensaje)
 {
-    let texto = prompt("Ingrese el texto:");
+    let texto = prompt(mensaje);
     return texto;
+}
+
+export function ingresarNumero()
+{
+    let num = prompt("Ingrese un numero:");
+    return num;
 }

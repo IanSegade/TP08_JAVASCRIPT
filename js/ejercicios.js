@@ -1,4 +1,5 @@
-import { ingresarFecha, calcularEdadConFecha, ingresarTexto, ingresarNumero, mostrarPrimerTriangulo, mostrarSegundoTriangulo} from './util.js';
+import { ingresarFecha, calcularEdadConFecha, ingresarTexto, ingresarNumero, mostrarPrimerTriangulo, mostrarSegundoTriangulo, mostrarArrayDuplicado, buscarFrutaIngresada,
+    comparandoDatosYtiposA, comparandoDatosYtiposB, comparandoDatosYtiposC, comparandoDatosYtiposD} from './util.js';
 
 function ejecutarFuncion()
 {
@@ -125,15 +126,22 @@ function mostrarTriangulosDeAsteriscos()
 
 function duplicarNumerosArray()
 {
-
+    const array = [1,2,3,4,5];
+    mostrarArrayDuplicado(array);
 }
 
 function ingresarFrutasYbuscarlas()
 {
-
+    let arrayFrutas = ["banana","manzana","mandarina","naranja","melon","piña","tomate","cereza","pera","kiwi"];
+    let frutaIngresada = ingresarTexto();
+    buscarFrutaIngresada(arrayFrutas, frutaIngresada);
 }
 
 function compararDatosYtipos()
 {
+    comparandoDatosYtiposA();
+    comparandoDatosYtiposB();
+    comparandoDatosYtiposC();
+    comparandoDatosYtiposD();
 
 }

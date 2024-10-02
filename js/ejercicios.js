@@ -1,4 +1,4 @@
-import { ingresarFecha, calcularEdadConFecha, ingresarTexto, ingresarNumero} from './util.js';
+import { ingresarFecha, calcularEdadConFecha, ingresarTexto, ingresarNumero, mostrarPrimerTriangulo, mostrarSegundoTriangulo} from './util.js';
 
 function ejecutarFuncion()
 {
@@ -119,7 +119,8 @@ function nombresConAdeUnaListaDeNombres()
 
 function mostrarTriangulosDeAsteriscos()
 {
-
+    mostrarPrimerTriangulo();
+    mostrarSegundoTriangulo();
 }
 
 function duplicarNumerosArray()

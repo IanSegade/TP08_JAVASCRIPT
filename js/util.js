@@ -29,3 +29,23 @@ export function ingresarNumero()
     let num = prompt("Ingrese un numero:");
     return num;
 }
+
+export function mostrarPrimerTriangulo()
+{
+    let asterisco = "*";
+    for(let i = 1; i <= 5; i++)
+    {
+        console.log(asterisco.repeat(i));
+    }
+}
+
+export function mostrarSegundoTriangulo()
+{
+    let triangulo = "----*----"
+    for(let i = 1; i <= 5; i++)
+    {
+        console.log(triangulo)
+        triangulo = triangulo.replace("*-", "**")
+        triangulo = triangulo.replace("-*", "**")
+    }
+}
